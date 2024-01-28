@@ -1,0 +1,35 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+header{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: #a54ef6;
+    padding: 10px 20px;
+}
+
+a:hover{
+    color: hsl(12, 74%, 32%);
+    letter-spacing: 3px;
+}
+a{
+    margin: 0px 40px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: #a54ef6;
+    padding: 10px 20px;
+}
